@@ -1,0 +1,105 @@
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 250px;
+}
+
+.principal .logo {
+    height: 700px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    background-color: #fda356;
+    font-size: 55px;
+    width: 100%;
+
+}
+
+.fotocards {
+    display: flex;
+    justify-content: center;
+    height: 820px;
+    align-items: center;
+    gap: 40px;
+    max-width: 800px;
+    flex-wrap: wrap;
+    padding: 60px;
+
+
+
+}
+
+.fotocards .img {
+    height: 200px;
+    width: 200px;
+    filter: grayscale(50);
+    border: 2px solid #ffff;
+    transition: .8s ease-in-out;
+
+}
+
+.fotocards .img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+
+}
+
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+
+}
+
+.personagem.visivel {
+    opacity: 1;
+    z-index: 1;
+}
+
+.personagem .intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: px;
+    font-size: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+}
+
+.personagem .nome {
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+.personagem .logo {
+    margin-top: 170px;
+    justify-content: center;
+
+}
+
+.personagens {
+    position: relative;
+    height: 1080px;
+    width:250px ;
+
+}
+
+/*.final{
+    height:100px ;
+    width: 100%;
+    background-color: black;
+
+}*/
